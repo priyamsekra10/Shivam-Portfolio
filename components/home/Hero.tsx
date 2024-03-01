@@ -15,7 +15,18 @@ function Hero() {
         <img src="/priyam.jpg" alt="" width={250} height={250} className="rounded float-left mt-4"/>
         <br />
 
-        <p className="text-xl mb-5">Hey, I'm Priyam.</p>
+        <p className="text-xl mb-5">
+               {"Hey I'm Priyam".split("").map((letter, index) => {
+              return (
+                <span
+                  key={index}
+                  className="hover:text-fun-pink hover:-mt-2 transition-all duration-500 hover:duration-100 click:goodbyeLetterAnim"
+                >
+                  {letter}
+                </span>
+              );
+            })}
+        </p>
         <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl  w-auto relative text-5xl md:text-6xl lg:text-7xl tracking-tighter mb-10 font-bold heroShinyBg">
           I enjoy <span className="heroShiny1 text-fun-pink">building</span> and{" "}
           <span className="heroShiny2 text-fun-pink">designing</span> softwares
