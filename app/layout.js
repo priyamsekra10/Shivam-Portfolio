@@ -13,7 +13,7 @@ export const metadata = {
     "reactjs freelancer",
     "nextjs"
   ],
-  title: "PriyamSekra - Web Developer, Designer and Creator.",
+  title: "PriyamSekra",
   description:
     "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js and Tailwind CSS. Explore my portfolio for innovative projects and seamless user experiences.",
   alternates: {
@@ -21,7 +21,7 @@ export const metadata = {
   },
   metadataBase: new URL("https://miteshtagadiya.js.org"),
   openGraph: {
-    title: "PriyamSekra - Web Developer, Designer and Creator.",
+    title: "PriyamSekra",
     description:
       "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js and Tailwind CSS. Explore my portfolio for innovative projects and seamless user experiences.",
     url: "https://miteshtagadiya.js.org",
@@ -69,7 +69,7 @@ export const metadata = {
   manifest: `static/favicon/site.webmanifest`,
   twitter: {
     card: "summary_large_image",
-    title: "PriyamSekra - Web Developer, Designer and Creator.",
+    title: "PriyamSekra",
     description:
       "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js and Tailwind CSS. Explore my portfolio for innovative projects and seamless user experiences.",
     url: "https://miteshtagadiya.js.org",

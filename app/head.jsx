@@ -1,7 +1,7 @@
 export default function Head({ currentPage = "Home" }) {
   const pageTitle = `${
     currentPage === "Home"
-      ? "PriyamSekra - Web Developer, Designer and Creator."
+      ? "PriyamSekra"
       : `${currentPage} - PriyamSekra`
   }`;
   const desc =

@@ -10,22 +10,19 @@ type Testimonial = {
 };
 
 export const skills: Skill[] = [
+  {
+    title: "Python",
+    icon: "/python-svgrepo-com.svg"
+  },
 
-  {
-    title: "NodeJS",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-  },
-  {
-    title: "Firebase",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
-  },
-  {
-    title: "Flutter",
-    icon: "/flutter-icon.svg"
-  },
+
   {
     title: "TensorFlow",
     icon: "/google-tensorflow-icon.svg"
+  },
+  {
+    title: "Django",
+    icon: "/django.svg"
   },
   {
     title: "PyTorch",
@@ -35,26 +32,25 @@ export const skills: Skill[] = [
     title: "MongoDB",
     icon: "/mongodb-icon.svg"
   },
-  {
-    title: "Python",
-    icon: "/python-svgrepo-com.svg"
-  },
+ 
   {
     title: "Github",
     icon: "/icons8-github.svg"
   },
-  {
-    title: "Figma",
-    icon: "/figma-seeklogo.svg"
-  },
+
   {
     title: "Unity",
     icon: "/unity-seeklogo.svg"
   },
   {
-    title: "Django",
-    icon: "/django.svg"
+    title: "Firebase",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
   },
+  {
+    title: "Figma",
+    icon: "/figma-seeklogo.svg"
+  }
+
 
 ];
 

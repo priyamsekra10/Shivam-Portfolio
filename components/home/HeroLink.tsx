@@ -5,7 +5,7 @@ import ScrollTo from "react-scroll-into-view";
 function HeroLink() {
   const handleResumeClick = () => {
     // Replace the URL below with the actual link to your resume
-    window.location.href = "your_resume_link_here";
+    window.location.href = "/PriyamSekra-CV.pdf";
   };
 
   return (
