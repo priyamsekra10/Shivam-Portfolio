@@ -11,12 +11,12 @@ function Hero() {
         className="relative w-full pt-20 pb-40 m-auto flex justify-center text-center flex-col items-center z-1"
         style={{ maxWidth: "1200px" }}
       >
-        {/* <img src="/priyam.jpg" alt="" width={250} height={300}/> */}
-        <img src="/priyam.jpg" alt="" width={250} height={250} className="rounded float-left mt-4"/>
+        {/* <img src="/shivam.jpg" alt="" width={250} height={300}/> */}
+        <img src="/portfolio/shivam.jpeg" alt="" width={250} height={250} className="rounded float-left mt-4"/>
         <br />
 
         <p className="text-xl mb-5">
-               {"Hey I'm Priyam".split("").map((letter, index) => {
+               {"Hey I'm Shivam".split("").map((letter, index) => {
               return (
                 <span
                   key={index}
@@ -29,7 +29,7 @@ function Hero() {
         </p>
         <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl  w-auto relative text-5xl md:text-6xl lg:text-7xl tracking-tighter mb-10 font-bold heroShinyBg">
           I enjoy <span className="heroShiny1 text-fun-pink">building</span> and{" "}
-          <span className="heroShiny2 text-fun-pink">designing</span> softwares
+          <span className="heroShiny2 text-fun-pink">designing</span> AI
           <img
             alt="html"
             className="sqD squiggle-hero-html w-16 top-[-90px] right-[5%] sm:top-[-90px] sm:right-[170px]"

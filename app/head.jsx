@@ -1,8 +1,8 @@
 export default function Head({ currentPage = "Home" }) {
   const pageTitle = `${
     currentPage === "Home"
-      ? "PriyamSekra"
-      : `${currentPage} - PriyamSekra`
+      ? "ShivamSekra"
+      : `${currentPage} - ShivamSekra`
   }`;
   const desc =
     "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js and Tailwind CSS. Explore my portfolio for innovative projects and seamless user experiences.";
@@ -13,7 +13,7 @@ export default function Head({ currentPage = "Home" }) {
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta
         name="keywords"
-        content="PriyamSekra, PriyamSekra, freelancers, react developer, reactjs freelancer, nextjs"
+        content="ShivamSekra, ShivamSekra, freelancers, react developer, reactjs freelancer, nextjs"
       />
       <link rel="icon" href={`static/favicon/favicon.ico`} />
       <link

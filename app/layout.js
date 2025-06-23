@@ -4,16 +4,16 @@ import Head from "next/head";
 // import "tailwindcss/tailwind.css";
 
 export const metadata = {
-  applicationName: "PriyamSekra",
+  applicationName: "ShivamSekra",
   keywords: [
-    "PriyamSekra",
-    "PriyamSekra",
+    "ShivamSekra",
+    "ShivamSekra",
     "freelancers",
     "react developer",
     "reactjs freelancer",
     "nextjs"
   ],
-  title: "PriyamSekra",
+  title: "ShivamSekra",
   description:
     "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js and Tailwind CSS. Explore my portfolio for innovative projects and seamless user experiences.",
   alternates: {
@@ -21,15 +21,15 @@ export const metadata = {
   },
   metadataBase: new URL("https://miteshtagadiya.js.org"),
   openGraph: {
-    title: "PriyamSekra",
+    title: "Shivam Sekra",
     description:
       "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js and Tailwind CSS. Explore my portfolio for innovative projects and seamless user experiences.",
     url: "https://miteshtagadiya.js.org",
-    siteName: "PriyamSekra",
+    siteName: "Shivam Sekra",
     images: [
       {
         url: "https://miteshtagadiya.js.org/static/misc/og.png",
-        alt: "PriyamSekra"
+        alt: "Shivam Sekra"
       }
     ],
     locale: "en_US",
@@ -69,13 +69,13 @@ export const metadata = {
   manifest: `static/favicon/site.webmanifest`,
   twitter: {
     card: "summary_large_image",
-    title: "PriyamSekra",
+    title: "ShivamSekra",
     description:
       "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js and Tailwind CSS. Explore my portfolio for innovative projects and seamless user experiences.",
     url: "https://miteshtagadiya.js.org",
     images: {
       url: "https://miteshtagadiya.js.org/static/misc/og.png",
-      alt: "PriyamSekra"
+      alt: "ShivamSekra"
     }
   }
 };

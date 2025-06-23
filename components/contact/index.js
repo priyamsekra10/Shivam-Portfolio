@@ -24,7 +24,7 @@ function Contact() {
       const { name, email, message } = formData;
       if (name !== "" && email !== "" && message !== "") {
         try {
-          await db.collection('priyam_contact').add({ name, email,message });
+          await db.collection('shivam_contact').add({ name, email,message });
           setSubmissionStatus("Successefully sended message");
           setTimeout(() => {
             setSubmissionStatus(null);

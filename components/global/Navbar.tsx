@@ -11,7 +11,7 @@ function Navbar({ currentPage }) {
         <Link href="/">
           <span className="font-black text-xl flex items-center">
           
-            {"PriyamSekra".split("").map((letter, index) => {
+            {"ShivamSekra".split("").map((letter, index) => {
               return (
                 <span
                   key={index}

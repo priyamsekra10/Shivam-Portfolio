@@ -27,11 +27,11 @@ function Heading({ tag }: HeadingProps) {
       ) : (
         <h1 className="text-4xl sm:text-6xl inline-block w-auto mx-auto mb-8 relative">
           Projects
-          <img
+          {/* <img
             alt="code"
             className="sqD w-10 -top-8 -right-8 absolute"
             src={`static/doodles/hero/code.svg`}
-          />
+          /> */}
         </h1>
       )}
       {!tag && (

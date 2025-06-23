@@ -79,14 +79,14 @@ export const footer: Footer = {
         },
         {
           name: "LinkedIn",
-          link: "https://www.linkedin.com/in/priyam-sekra",
+          link: "https://www.linkedin.com/in/shivamsekra/",
           icon: `static/icons/linkedin-f.svg`,
           leavesWebsite: true
         },
         
         {
           name: "Email",
-          link: "priyam22rr@gmail.com",
+          link: "shivamsekra@gmail.com",
           icon: `static/icons/mail-f.svg`,
           leavesWebsite: true
         }

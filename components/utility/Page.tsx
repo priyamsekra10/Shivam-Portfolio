@@ -7,8 +7,8 @@ import React from "react";
 function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
   const pageTitle = `${
     currentPage === "Home"
-      ? "PriyamSekra"
-      : `${currentPage} - PriyamSekra`
+      ? "ShivamSekra"
+      : `${currentPage} - ShivamSekra`
   }`;
 
   return (
