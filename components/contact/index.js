@@ -1,7 +1,8 @@
 "use client"
 import React, { useState } from "react";
-import * as emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import { db } from '../firebase/config';
+import { collection, addDoc } from 'firebase/firestore';
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -24,11 +25,11 @@ function Contact() {
       const { name, email, message } = formData;
       if (name !== "" && email !== "" && message !== "") {
         try {
-          await db.collection('shivam_contact').add({ name, email,message });
-          setSubmissionStatus("Successefully sended message");
+          await addDoc(collection(db, 'shivam_contact'), { name, email, message });
+          setSubmissionStatus("Successfully sent message");
           setTimeout(() => {
             setSubmissionStatus(null);
-          }, [10000]);
+          }, 10000);
           setFormData({
             name: "",
             email: "",
@@ -38,12 +39,13 @@ function Contact() {
 
       } catch (error) {
           console.error('Error adding email: ', error);
+          setError('Failed to send message. Please try again.');
       }
       } else {
         setSubmissionStatus("error");
         setTimeout(() => {
           setSubmissionStatus(null);
-        }, [10000]);
+        }, 10000);
       }
     }
   };

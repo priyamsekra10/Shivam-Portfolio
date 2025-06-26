@@ -1,12 +1,13 @@
 module.exports = {
-output: "export", // comment this line while development
-  assetPrefix: "/",
- exportTrailingSlash: true, // comment this line while development
+  // output: "export", // Commented out for Amplify deployment - only use for static export
+  // assetPrefix: "/", // Not needed for Amplify
+  // exportTrailingSlash: true, // Only needed for static export
   basePath: "",
-  // trailingSlash: true,
+  trailingSlash: true,
   swcMinify: true,
   images: {
-    unoptimized: true
+    unoptimized: true, // Keep this for Amplify compatibility
+    domains: [], // Add any external image domains here if needed
   },
   async redirects() {
     return [
@@ -16,5 +17,9 @@ output: "export", // comment this line while development
         permanent: true
       }
     ];
-  }
+  },
+  // Optimize for Amplify deployment
+  experimental: {
+    optimizeCss: true,
+  },
 };

@@ -1,6 +1,6 @@
-import firebase from 'firebase/app'
-import 'firebase/firestore'
-import 'firebase/auth'
+import { initializeApp } from 'firebase/app';
+import { getFirestore } from 'firebase/firestore';
+import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
     apiKey: "AIzaSyByzgcbU42FAm6HD4POES0Q-XAWYfFwJH0",
@@ -9,10 +9,13 @@ const firebaseConfig = {
     storageBucket: "personalweb-f71ee.appspot.com",
     messagingSenderId: "1090919259410",
     appId: "1:1090919259410:web:cad0102849e4264ae767cb"
-  };
+};
 
-firebase.initializeApp(firebaseConfig);
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
-const db = firebase.firestore();
+// Initialize Firebase services
+const db = getFirestore(app);
+const auth = getAuth(app);
 
-export {db}
+export { db, auth };
