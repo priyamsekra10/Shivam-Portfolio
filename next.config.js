@@ -19,7 +19,7 @@ module.exports = {
     ];
   },
   // Optimize for Amplify deployment
-  experimental: {
-    optimizeCss: true,
-  },
+  // experimental: {
+  //   optimizeCss: true, // Disabled - requires critters package
+  // },
 };
