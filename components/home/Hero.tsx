@@ -12,7 +12,7 @@ function Hero() {
         style={{ maxWidth: "1200px" }}
       >
         {/* <img src="/shivam.jpg" alt="" width={250} height={300}/> */}
-        <img src="/portfolio/shivam.jpeg" alt="" width={250} height={250} className="rounded float-left mt-4"/>
+        <img src="/shivam.jpeg" alt="" width={250} height={250} className="rounded float-left mt-4"/>
         <br />
 
         <p className="text-xl mb-5">

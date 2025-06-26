@@ -5,7 +5,7 @@ const projects = [
     id: 0,
     title: "Kailasa: Real-Time Speech-to-Speech Conversational AI",
     desc: "Developed a low-latency speech-to-speech (STS) conversational AI system that combines automatic speech recognition (ASR), language models (LLMs), and text-to-speech (TTS) for fluid, real-time conversations. Leveraged prompt engineering techniques for contextual awareness, enabling highly interactive human-computer dialogue systems for use in customer support, IVRs, and AI assistants. Integrated interruption detection logic, enhancing user experience by enabling the assistant to pause or resume based on speaker activity.",
-    img: `/portfolio/kailasa.png`,
+    img: `/kailasa.png`,
     link: "https://web.kailasa.app/",
     tags: ["AI Voice Bot", "TTS/STT", "Conversational AI", "Python", "AWS"]
   },
@@ -23,21 +23,21 @@ const projects = [
     id: 2,
     title: "Vizaro: GenAI-AR Framework for Personalised E-Commerce",
     desc: "Developed a GenAI-AR framework that enables personalized e-commerce experiences through AI-generated AR models. Integrated with AWS, it provides real-time product visualization, personalized recommendations, and interactive shopping features for enhanced customer engagement.",
-    img: `/portfolio/vizaro.mp4`,
+    img: `/vizaro.mp4`,
     tags: ["Generative AI", "E-Commerce", "AR Shopping","WebAR","AWS","MongoDB"]
   },
   {
     id: 3,
     title: "AWS-Based Automated Notification System with GenAI Summarization",
     desc: "Developed a comprehensive automated notification system leveraging AWS Lambda for serverless automation. Integrated Generative AI for intelligent content summarization and automated SMS/WhatsApp notifications. The system provides real-time alerts and personalized communication through API integrations, enhancing user engagement and information delivery.",
-    img: `/portfolio/AWS-notify.png`,
+    img: `/AWS-notify.png`,
     tags: ["AWS Lambda", "Serverless Automation", "Generative AI", "SMS Notifications", "WhatsApp Automation", "API Integration", "AI Summarization"]
   },
   {
     id: 4,
     title: "AI-Powered Father-Son Relationship Conflict Resolution App",
     desc: "Created an innovative mental health application focused on resolving father-son relationship conflicts through empathetic AI dialogue. The app leverages generative AI to provide emotional intelligence support, facilitating constructive conversations and promoting family harmony through AI-driven conflict resolution strategies.",
-    img: `/portfolio/Father.png`,
+    img: `/Father.png`,
     tags: ["Mental Health", "Conflict Resolution", "Generative AI", "Empathetic AI", "AI Dialogue", "Family App", "Emotional Intelligence"]
   },
   {
@@ -51,14 +51,14 @@ const projects = [
     id: 6,
     title: "Power Apps Automation for Business Operations (Client Work)",
     desc: "Delivered comprehensive business process automation solutions using Microsoft Power Apps and Power Automate. Integrated SharePoint workflows and implemented low-code/no-code development strategies to streamline client operations, reducing manual tasks and improving efficiency across various business processes.",
-    img: `/portfolio/power.png`,
+    img: `/power.png`,
     tags: ["Power Apps", "Workflow Automation", "Power Automate", "Low-Code", "Business Process Automation", "SharePoint Integration", "No-Code Development"]
   },      
   {
     id: 7,
     title: "Web Scraper-Driven Generative AI Chat Assistant",
     desc: "Developed an intelligent website chatbot that combines web scraping capabilities with generative AI for enhanced customer support. The system extracts relevant data from websites and provides automated chat responses, creating interactive websites with AI-powered customer service capabilities.",
-    img: `/portfolio/scrap.svg`,
+    img: `/scrap.svg`,
     tags: ["Web Scraping", "Generative AI", "Website Chatbot", "Data Extraction", "AI Customer Support", "Automated Chat", "Interactive Websites"]
   },
   {
