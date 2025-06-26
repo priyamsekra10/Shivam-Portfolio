@@ -23,7 +23,7 @@ const projects = [
     id: 2,
     title: "Vizaro: GenAI-AR Framework for Personalised E-Commerce",
     desc: "Developed a GenAI-AR framework that enables personalized e-commerce experiences through AI-generated AR models. Integrated with AWS, it provides real-time product visualization, personalized recommendations, and interactive shopping features for enhanced customer engagement.",
-    img: `/vizaro.mp4`,
+    img: `/VIZARO2.png`,
     tags: ["Generative AI", "E-Commerce", "AR Shopping","WebAR","AWS","MongoDB"]
   },
   {
